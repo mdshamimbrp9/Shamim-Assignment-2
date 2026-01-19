@@ -123,7 +123,21 @@ padding: 100px 15px;
   height: 175px;
   position: absolute;
   top: 15%;
+  animation: scaleUpDown 4s ease-in-out infinite;
 }
+@keyframes scaleUpDown {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+}
+}
+
+
 .banner-content .cicle-bg {
   width: 350px;
 }
