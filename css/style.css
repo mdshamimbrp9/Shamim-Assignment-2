@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.inter-font, body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+}
+
+
+/* shared-style  */
+:root {
+  --primary : #ffffff;
+  --secoundery: #00FF88;
+  --text : rgba(255, 255, 255, 1);
+  --bg: #1A0B2E;
+  --bg-light: #230E3D;
+}
+body {
+  background-color: var(--bg);
+  color: var(--primary);
+}
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+border-radius: 1000px;
+color: var(--primary);
+background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+padding: 12px 20px;
+font-size: 16px;
+font-weight: 600;
+border: none;
+}
+.flex {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+/* Main-design-part */
+header {
+border-bottom: 1px solid rgba(65, 37, 103, 1);
+}
+header nav {
+  justify-content: space-between;
+  padding: 30px 15px;
+  align-items: center;
+}
+.logo h3 {
+  font-size: 3rem;
+}
+.logo h3 span {
+   background: -webkit-linear-gradient(#9100F8, #FB09B4, #F7E93F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu ul {
+  gap: 32px;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 16pxx;
+}
+.menu img {
+  display: none;
+}
+
+
+/* Banner-section-Design  */
+#banner {
+background-image: url('../image/hero-bg.png');        background-repeat: no-repeat;
+background-position: center;
+display: flex;
+padding: 100px 15px;
+}
+#banner .banner-content {
+  max-width: 550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center; 
+}
+
+#banner .banner-content h1 {
+  font-size: 3.7rem;
+}
+.button-box {
+  gap: 20px;
+}
+
+
+
+/* Mobile-Responsive-section */
+@media screen and (max-width: 576px) {
+  .main-container {
+  max-width: 100%;
+}
+.logo h3 {
+  font-size: 2rem;
+}
+.button, .menu>ul {
+  display: none;
+}
+.menu img {
+  display: block;
+}
+
+/* banner-section  */
+#banner .banner-content {
+  max-width: 100%;
+}
+#banner .banner-content h1 {
+  font-size: 2.5rem;
+}
+
+
+
+}
+
+
+/* Tablet-Device-Responsive  */
+@media screen and (min-width:576px) and (max-width: 992px) {
+  .logo h3 {
+  font-size: 2.5rem;
+}
+.menu ul {
+  gap: 16px;
+}
+}
