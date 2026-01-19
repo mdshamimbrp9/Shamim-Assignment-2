@@ -122,9 +122,22 @@ padding: 100px 15px;
 #banner .banner-content h1 {
   font-size: 3.7rem;
 }
-.button-box {
-  gap: 20px;
+.button-box, .btn {
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 }
+
+.button-box .btns {
+  border-radius: 1000px;
+color: var(--secoundery);
+background: transparent;
+padding: 12px 20px;
+font-size: 16px;
+font-weight: 600;
+border: 1px solid #00FF88;
+}
+
 
 
 
@@ -143,15 +156,57 @@ padding: 100px 15px;
   display: block;
 }
 
-/* banner-section  */
-#banner .banner-content {
+/* Banner-section-Design  */
+#banner {
+background-image: url('../image/hero-bg.png');
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+padding: 0;
+}
+#banner .main-container {
+  padding: 40px;
+}
+#banner .banner-content { 
   max-width: 100%;
+  position: relative;
+}
+.badge {
+  background-color: var(--secoundery);
+  position: absolute;
+  top: 5%;
+  right: 6%;
+}
+.badge p {
+  font-size: 16px;
+}
+.microphone {
+  max-width: 46px;
+  height: 70px;
+  position: absolute;
+  top: 15%;
+}
+.banner-content .cicle-bg {
+  width: 200px;
 }
 #banner .banner-content h1 {
-  font-size: 2.5rem;
+  font-size: 3.7rem;
+}
+.button-box, .btn {
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.button-box .btns {
+  border-radius: 1000px;
+color: var(--secoundery);
+background: transparent;
+padding: 12px 20px;
+font-size: 16px;
+font-weight: 600;
+border: 1px solid #00FF88;
+}
 
 }
 
