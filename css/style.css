@@ -87,7 +87,7 @@ background-position: center;
 display: flex;
 padding: 100px 15px;
 }
-#banner .banner-content {
+#banner .banner-content { 
   max-width: 550px;
   text-align: center;
   display: flex;
@@ -95,8 +95,30 @@ padding: 100px 15px;
   gap: 24px;
   justify-content: center;
   align-items: center; 
+  position: relative;
 }
-
+.badge {
+  background-color: var(--secoundery);
+  padding: 8px 16px;
+  border-radius: 100px;
+  color: #000;
+  position: absolute;
+  top: 4%;
+  right: 25%;
+}
+.badge p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.microphone {
+  max-width: 115px;
+  height: 175px;
+  position: absolute;
+  top: 15%;
+}
+.banner-content .cicle-bg {
+  width: 350px;
+}
 #banner .banner-content h1 {
   font-size: 3.7rem;
 }
