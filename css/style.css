@@ -39,7 +39,10 @@ border: none;
 .flex {
   display: flex;
 }
-
+.heading {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
 
 
 
@@ -145,6 +148,9 @@ border: 1px solid #00FF88;
 /* Mobile-Responsive-section */
 @media screen and (max-width: 576px) {
 
+  .heading {
+  font-size: 2rem;
+}
 
   .main-container {
   max-width: 100%;
@@ -170,7 +176,7 @@ background-size: contain;
 #banner .banner-content { 
   max-width: 100%;  
   position: relative;
-  top: 20%;
+  top: 25%;
 }
 .badge {
   top: 3%;
@@ -179,6 +185,7 @@ background-size: contain;
 .microphone {
   max-width: 46px;
   height: 70px;
+  top: 12%;
 }
 .banner-content .cicle-bg {
   width: 50%;
@@ -189,16 +196,12 @@ background-size: contain;
 .button-box, .btn {
   gap: 5px;
 }
-
-.button-box .btns {
-  border-radius: 1000px;
-color: var(--secoundery);
-background: transparent;
-padding: 10px 16px;
+.button-box .btns, .btn {
+padding: 10px 15px;
 font-size: 14px;
-font-weight: 600;
-border: 1px solid #00FF88;
 }
+
+
 
 }
 
