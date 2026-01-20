@@ -483,7 +483,9 @@ border-radius: 24px;
 .episode-box .card h3 {
   font-size: 20px;
 }
-
+.episode-box .card-content {
+  padding: 0 16px 16px 16px;
+}
 
 /* Host-section-design  */
 
