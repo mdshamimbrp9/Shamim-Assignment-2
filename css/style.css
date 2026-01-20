@@ -577,4 +577,28 @@ footer .icon-card img {
 .menu ul {
   gap: 16px;
 }
+
+
+
+/* episode-section-desgin */
+#episode {
+  padding: 100px 0;
+  text-align: center;
+}
+.episode-box {
+  gap: 10px;
+}
+.episode-box .card iframe {
+  width: 100%;
+}
+.episode-box .card h3 {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
 }
