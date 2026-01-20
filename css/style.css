@@ -322,7 +322,7 @@ background-color: #230E3D;
 }
 
 /* footer-section-design  */
-footer {
+/* footer {
   padding: 120px;
   background-image: url('../image/footer-bg.png');
   background-repeat: no-repeat;
@@ -353,9 +353,47 @@ footer .icon-card {
 footer .icon-card img {
   width: 22px;
   height: 22px;
+} */
+
+
+footer {
+  width: 100%;
+  height: 412px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../image/footer-bg.png');
+  background-position: center;
+  background-size: contain;
+  
+
 }
-
-
+footer .main-container {
+text-align: center;
+position: relative;
+top: -10px;
+}
+footer .footer-icon-box {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+footer .footer-icon-box .icon-card {
+  display: flex;
+  gap: 8px;
+}
+footer .footer-logo h2 {
+  font-size: 5rem;
+}
+footer .footer-logo h2 span {
+   background: -webkit-linear-gradient(#9100F8, #FB09B4, #F7E93F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .icon-card img {
+  width: 20px;
+  height: 20px;
+}
 
 /* Mobile-Responsive-section */
 @media screen and (max-width: 576px) {
@@ -557,7 +595,7 @@ footer .icon-card {
 
 
 /* footer-section-design  */
-footer {
+/* footer {
   padding: 40px 20px;
  
 }
@@ -584,6 +622,52 @@ footer .icon-card {
   align-items: center;
   justify-content: center;
   font-size: 12px;
+} */
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 248px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../image/footer-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 248px;
+}
+footer .main-container {
+text-align: center;
+position: relative;
+top: 0;
+}
+footer .footer-icon-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-icon-box .icon-card {
+  display: flex;
+  gap: 8px;
+}
+footer .footer-logo h2 {
+  font-size: 2.5rem;
+}
+footer .icon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .icon-card img {
+  width: 20px;
+  height: 20px;
 }
 
 
