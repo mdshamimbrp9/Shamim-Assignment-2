@@ -182,8 +182,8 @@ font-family: "Inter", sans-serif;
   text-align: center;
 }
 hr {
-  border:1px solid rgba(65, 37, 103, 0.4); 
-  height: 1px;
+  color:  #ffffff2f; 
+  height: 0.1px;
   margin: 80px 0;
 }
 
@@ -334,6 +334,7 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #230E3D;
+  
 
 }
 footer .main-container {
@@ -578,28 +579,4 @@ footer .icon-card img {
 .menu ul {
   gap: 16px;
 }
-
-
-
-/* episode-section-desgin */
-#episode {
-  padding: 100px 0;
-  text-align: center;
-}
-.episode-box {
-  gap: 10px;
-}
-.episode-box .card iframe {
-  width: 100%;
-}
-.episode-box .card h3 {
-  font-size: 20px;
-}
-
-
-
-
-
-
-
 }
