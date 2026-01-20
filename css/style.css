@@ -384,16 +384,17 @@ background-size: contain;
 #banner .banner-content { 
   max-width: 100%;  
   position: relative;
-  top: 18%;
+  top: 20%;
 }
 .badge {
   top: 3%;
-  right: 20%;
+  right: 23%;
+  padding: 6px 12px;
 }
 .microphone {
   max-width: 46px;
   height: 70px;
-  top: 12%;
+  top: 16%;
 }
 .banner-content .cicle-bg {
   width: 200px;
