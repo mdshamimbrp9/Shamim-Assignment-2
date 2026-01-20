@@ -25,7 +25,8 @@ body {
 }
 .main-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;padding:
+   0 20px;
 }
 .btn {
 border-radius: 1000px;
@@ -35,6 +36,8 @@ padding: 12px 20px;
 font-size: 16px;
 font-weight: 600;
 border: none;
+letter-spacing: 8%;
+font-family: "Inter", sans-serif;
 }
 .flex {
   display: flex;
@@ -158,6 +161,7 @@ padding: 12px 20px;
 font-size: 16px;
 font-weight: 600;
 border: 1px solid #00FF88;
+font-family: "Inter", sans-serif;
 }
 
 
